@@ -4,7 +4,7 @@
 
 <target name="build-war">
 
-   <war destfile="ant.war" webxml="${web.dir}/WEB-INF/web.xml">
+   <war destfile="target/ant.war" webxml="${web.dir}/WEB-INF/web.xml">
       <fileset dir="${web.dir}">
          <include name="*.jsp"/>
       </fileset>
